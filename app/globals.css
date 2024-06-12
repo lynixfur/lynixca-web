@@ -18,16 +18,26 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  @apply bg-neutral-950;
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+::-webkit-scrollbar {
+  /* Customize the scrollbar width */
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  /* Customize the scrollbar track */
+  @apply bg-neutral-950;
+}
+
+::-webkit-scrollbar-thumb {
+  /* Customize the scrollbar thumb */
+  @apply bg-cyan-600;
 }
