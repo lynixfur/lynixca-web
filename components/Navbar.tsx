@@ -31,8 +31,9 @@ const Navbar = () => {
                     </div>
                 </div>
             </nav>
-            <div className="text-center font-bold py-2">
-                Happening Now: Project Howl - Meet the WaterWolf Community - Anthrocon - moist.dog!
+            <div className="text-center font-bold py-2 bg-red-700 border-b-4 border-neutral-900">
+                Network Outage - Lynx Network is currently facing system upgrades due to unexpected system failure. Some features may not work! <br/>
+                INC00000058 - Affected Services: All
             </div>
         </>
     )
