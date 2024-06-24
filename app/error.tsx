@@ -1,11 +1,19 @@
-import Navbar from "@/components/Navbar";
-import AboutMe from "@/components/sections/AboutMe";
-import ITSection from "@/components/sections/ITSection";
-import ProtectKindness from "@/components/sections/ProtectKindness";
-import WeAreVRContainer from "@/components/sections/SectionVR";
-import Image from "next/image";
+"use client"
 
-export default function Home() {
+import { useEffect } from "react"
+
+export default function Error({
+  error,
+  reset,
+}: {
+  error: Error & { digest?: string }
+  reset: () => void
+}) {
+  useEffect(() => {
+    // Log the error to an error reporting service
+    console.error(error)
+  }, [error])
+  
   return (
     <main className="flex justify-center items-center h-screen">
       <div className="flex flex-col items-center space-y-5">
