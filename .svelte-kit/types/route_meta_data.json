@@ -1,0 +1,30 @@
+{
+	"/": [
+		"src/routes/+layout.js",
+		"src/routes/+layout.js"
+	],
+	"/blog": [
+		"src/routes/+layout.js"
+	],
+	"/events": [
+		"src/routes/+layout.js"
+	],
+	"/lcm": [
+		"src/routes/+layout.js"
+	],
+	"/lcm/overlay": [
+		"src/routes/+layout.js"
+	],
+	"/projects": [
+		"src/routes/+layout.js"
+	],
+	"/shock": [
+		"src/routes/+layout.js"
+	],
+	"/station": [
+		"src/routes/+layout.js"
+	],
+	"/stream-overlays/furality": [
+		"src/routes/+layout.js"
+	]
+}
