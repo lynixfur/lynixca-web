@@ -15,8 +15,8 @@
 		<a href="/events" class="font-semibold text-lg hover:text-cyan-600 transition-colors flex items-center">Events
 			<i class="fa fa-circle text-xs ml-2 text-cyan-700 animate-pulse" aria-hidden="true"></i>
 		</a>
-		<a href="/about" class="flex items-center font-semibold text-lg hover:text-cyan-600 transition-colors">The Station <span class="ml-2 bg-cyan-700 text-white text-xs me-2 px-2.5 py-0.5 rounded-full font-bold">New</span></a>
-		<a href="/station" class="font-semibold text-lg hover:text-cyan-600 transition-colors">About</a>
+		<a href="/station" class="flex items-center font-semibold text-lg hover:text-cyan-600 transition-colors">The Station <span class="ml-2 bg-cyan-700 text-white text-xs me-2 px-2.5 py-0.5 rounded-full font-bold">New</span></a>
+		<a href="/about" class="font-semibold text-lg hover:text-cyan-600 transition-colors">About</a>
 		<a href="/contact" class="font-semibold text-lg hover:text-cyan-600 transition-colors">Contact</a>
 	</nav>
 	<!-- TODO: Work on mobile interface -->
