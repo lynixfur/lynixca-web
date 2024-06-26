@@ -7,7 +7,7 @@
         NB Furs Furry Day (Animaritime)
     </h1>
     <p class="text-xl mb-5">Fredericton, NB - June 29, 2024</p>
-    <div class="min-h-[400px] w-full rounded-2xl bg-neutral-900" style="background:url(/freedy.jpg);background-size: cover;background-position: center;">
+    <div class="min-h-[400px] w-full rounded-2xl bg-neutral-900" style="background:url(/freedy.jpeg);background-size: cover;background-position: center;">
     </div>
     <div class="bg-[#003978] py-5 px-5 mt-5 max-w-[800px] rounded-xl font-semibold">
         <div class="flex space-x-2 items-center text-lg">
