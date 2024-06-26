@@ -27,7 +27,7 @@ const config = {
             }
         },
 		paths: {
-			relative: false,
+			//relative: false, Maybe this breaks?
 		},
 	},
 
