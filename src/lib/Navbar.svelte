@@ -8,7 +8,7 @@
 <header class=" text-white items-center py-14 md:flex hidden">
 	<nav class="flex items-center space-x-8">
 		<a href="/" class="font-semibold text-lg">
-			<img src="https://lynix.ca/imgs/logos/LynixLogo.svg" alt="lynix" class="h-14 w-14" />
+			<img src="/LynixLogo.svg" alt="lynix" class="h-14 w-14" />
 		</a>
 		<a href="/projects" class="font-semibold text-lg hover:text-cyan-600 transition-colors">Projects</a>
 		<a href="/blog" class="font-semibold text-lg hover:text-cyan-600 transition-colors">Blog</a>

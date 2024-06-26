@@ -7,15 +7,15 @@
         NB Furs Furry Day (Animaritime)
     </h1>
     <p class="text-xl mb-5">Fredericton, NB - June 29, 2024</p>
-    <div class="min-h-[400px] w-full rounded-2xl bg-neutral-900" style="background:url(https://images.squarespace-cdn.com/content/v1/5db973b09e3d382f2f1ed480/1630279447121-7PUYZIA5CTJN8VXIJZ24/daveyandsky-city+aerial+view);background-size: cover;background-position: center;">
+    <div class="min-h-[400px] w-full rounded-2xl bg-neutral-900" style="background:url(/freedy.jpg);background-size: cover;background-position: center;">
     </div>
     <div class="bg-[#003978] py-5 px-5 mt-5 max-w-[800px] rounded-xl font-semibold">
         <div class="flex space-x-2 items-center text-lg">
-            <img src="/Megaphone.png" class="w-14"/>
+            <img src="/Megaphone.png" class="w-14" alt="Megaphone Icon"/>
             <p>CyberFox Badge is currently online and active for this convention! Boop now!</p>
         </div>
         <div class="flex space-x-5 items-center">
-            <img class="w-[350px]" src="https://cdn.discordapp.com/attachments/1254891979116904528/1255303270403018773/BadgeWarning.png?ex=667ca3c6&is=667b5246&hm=81456e188e68919ccce309bc948d123dea13181750d75b2468a91939185214f6&"/>
+            <img class="w-[350px]" src="/BadgeWarning.png" alt="How to read my badge"/>
             <p class="flex-1 mt-5 px-3 py-1.5 font-bold text-white text-center text-4xl flex flex-col"><i class="fa-solid fa-paw text-[60px] text-[#7dedd9]"></i> 0 Boops
             <span class="text-xs mt-2">Boops may be delayed until the convention ends.</span></p>
         </div>
@@ -91,7 +91,7 @@
                 </div>
             </div>
             <img
-                src="https://lynix.ca/imgs/logos/LynixLogo.svg"
+                src="/LynixLogo.svg"
                 alt="Lynix"
                 class="rounded-xl w-32 h-32 pt-5 border-2 bg-neutral-900 border-neutral-800 p-3 object-fit"
             />

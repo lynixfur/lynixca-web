@@ -1,7 +1,25 @@
 <script>
+	import { onMount } from 'svelte';
 	import Banner from "$lib/Banner.svelte";
 	import Navbar from "$lib/Navbar.svelte";
+
+	let status = 'Fetching status...';
+
+	onMount(async () => {
+		try {
+			const response = await fetch('https://api.lynix.ca');
+			if (!response.ok) {
+				throw new Error(`HTTP error! status: ${response.status}`);
+			}
+			const data = await response.json();
+			status = data.status; // Assuming the API returns a JSON object with a `status` field
+		} catch (error) {
+			status = 'Unhealthy';
+			console.error(error);
+		}
+	});
 </script>
+
 <main class="flex py-10">
 	<div class="">
 		<div class="grid gap-4 grid-cols-1 md:grid-cols-3">
@@ -18,7 +36,7 @@
 				<p class="pt-4 text-lg grow text-neutral-400">
 					As a proud member of the furry community, I believe in using technology to promote inclusivity. My IT expertise allows me to build bridges and create platforms that welcome diverse voices, fostering a more connected and understanding world.
 					<br/><br/>
-					<span class="text-sm text-green-500 font-semibold">Lynx Network - Healthy</span>
+					<span class="text-sm text-green-500 font-semibold">Lynx Network - {status}</span>
 				</p>
 				<div class="grid gap-5 grid-cols-5 mt-8">
 					<a href="https://discord.com" aria-label="Discord">

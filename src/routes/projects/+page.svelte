@@ -52,7 +52,7 @@
                 </div>
             </div>
             <img
-                src="https://lynix.ca/imgs/logos/LynixLogo.svg"
+                src="/LynixLogo.svg"
                 alt="Lynix"
                 class="rounded-xl w-32 h-32 pt-5 border-2 bg-neutral-900 border-neutral-800 p-3 object-fit"
             />
