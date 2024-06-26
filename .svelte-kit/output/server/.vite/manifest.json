@@ -33,11 +33,6 @@
     "isEntry": true,
     "src": "src/routes/+error.svelte"
   },
-  "src/routes/+layout.js": {
-    "file": "entries/pages/_layout.js",
-    "isEntry": true,
-    "src": "src/routes/+layout.js"
-  },
   "src/routes/+layout.svelte": {
     "css": [
       "_app/immutable/assets/_layout.cBfTqhOI.css"

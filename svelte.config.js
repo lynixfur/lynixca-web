@@ -16,6 +16,16 @@ const config = {
 			precompress: false,
 			strict: true
 		}),
+		prerender: {
+            handleHttpError: ({ path, referrer, message }) => {
+                if (path === '/404') {
+                    return; // Allow the 404 page to be rendered
+                }
+
+                console.error(`Failed to prerender ${path}: ${message} (referred from ${referrer})`);
+                throw new Error(message); // Throw an error for other paths
+            }
+        },
 		paths: {
 			relative: false,
 		},

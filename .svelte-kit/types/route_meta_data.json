@@ -1,18 +1,7 @@
 {
-	"/": [
-		"src/routes/+layout.js",
-		"src/routes/+layout.js"
-	],
-	"/404": [
-		"src/routes/+layout.js"
-	],
-	"/blog": [
-		"src/routes/+layout.js"
-	],
-	"/events": [
-		"src/routes/+layout.js"
-	],
-	"/projects": [
-		"src/routes/+layout.js"
-	]
+	"/": [],
+	"/404": [],
+	"/blog": [],
+	"/events": [],
+	"/projects": []
 }
