@@ -16,7 +16,7 @@
 			status = data.status; // Assuming the API returns a JSON object with a `status` field
 			updateStatusClass();
 		} catch (error) {
-			status = 'Unhealthy';
+			status = 'Offline';
 			updateStatusClass();
 			console.error(error);
 		}
@@ -29,7 +29,7 @@
 		if(status == "Degraded") {
 			statusClass = "text-orange-500";	
 		}
-		if(status == "Unhealthy") {
+		if(status == "Offline") {
 			statusClass = "text-red-500";	
 		}
 	}
@@ -45,25 +45,22 @@
 						Hi, I'm Lynix!
 					</h1>
 				</div>
-				<h2 class="text-3xl text-neutral-300 hidden">
-					Cloud Administrator
-				</h2>
 				<p class="pt-4 text-lg grow text-neutral-400">
 					As a proud member of the furry community, I believe in using technology to promote inclusivity. My IT expertise allows me to build bridges and create platforms that welcome diverse voices, fostering a more connected and understanding world.
 					<br/><br/>
 					<span class="text-sm font-semibold {statusClass}">Lynx Network - {status}</span>
 				</p>
 				<div class="grid gap-5 grid-cols-5 mt-8">
-					<a href="https://discord.com" aria-label="Discord">
+					<a href="https://discord.com/users/885224265014738975" aria-label="Discord">
 						<i class="fa-brands fa-discord text-4xl text-neutral-400" />
 					</a>
-					<a href="https://t.me/cyberlynix" aria-label="Telegram">
+					<a href="https://t.me/lynixfur" aria-label="Telegram">
 						<i class="fa-brands fa-telegram text-4xl text-neutral-400" />
 					</a>
-					<a href="https://github.com/cyberlynix" aria-label="GitHub">
+					<a href="https://github.com/lynixfur" aria-label="GitHub">
 						<i class="fa-brands fa-github text-4xl text-neutral-400" />
 					</a>
-					<a href="https://twitter.com/cyberlynix" aria-label="Twitter">
+					<a href="https://twitter.com/lynixfur" aria-label="Twitter">
 						<i class="fa-brands fa-twitter text-4xl text-neutral-400" />
 					</a>
 					<a href="https://www.linkedin.com/in/anthony-roy-6316a624b/" aria-label="LinkedIn">
