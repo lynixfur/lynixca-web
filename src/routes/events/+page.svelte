@@ -22,7 +22,7 @@
     </div>  
     <div class="flex items-center space-x-4">
         <p class="mt-5 px-3 py-1.5 rounded-full bg-cyan-500 font-bold text-cyan-950 text-xl text-center w-[350px]">Confirmed - Starting Soon</p>
-        <p class="mt-5 px-3 py-1.5 rounded-full bg-neutral-800 font-bold text-white text-xl text-center w-[200px]"><i class="fa-solid fa-link"></i> Panels</p>
+        <a href="https://www.animaritime.info/programming"><p class="mt-5 px-3 py-1.5 rounded-full bg-neutral-800 font-bold text-white text-xl text-center w-[200px]"><i class="fa-solid fa-link"></i> Panels</p></a>
     </div>
     <!-- More Events -->
     <h1 class="mt-10 text-6xl font-semibold text-neutral-100 pb-2">
