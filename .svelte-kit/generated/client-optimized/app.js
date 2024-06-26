@@ -7,26 +7,17 @@ export const nodes = [
 	() => import('./nodes/3'),
 	() => import('./nodes/4'),
 	() => import('./nodes/5'),
-	() => import('./nodes/6'),
-	() => import('./nodes/7'),
-	() => import('./nodes/8'),
-	() => import('./nodes/9'),
-	() => import('./nodes/10'),
-	() => import('./nodes/11')
+	() => import('./nodes/6')
 ];
 
 export const server_loads = [];
 
 export const dictionary = {
-		"/": [3],
-		"/404": [4],
-		"/blog": [5],
-		"/events": [6],
-		"/lcm/overlay": [7,[2]],
-		"/projects": [8],
-		"/shock": [9],
-		"/station": [10],
-		"/stream-overlays/furality": [11]
+		"/": [2],
+		"/404": [3],
+		"/blog": [4],
+		"/events": [5],
+		"/projects": [6]
 	};
 
 export const hooks = {
