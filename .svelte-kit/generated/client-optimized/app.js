@@ -11,20 +11,22 @@ export const nodes = [
 	() => import('./nodes/7'),
 	() => import('./nodes/8'),
 	() => import('./nodes/9'),
-	() => import('./nodes/10')
+	() => import('./nodes/10'),
+	() => import('./nodes/11')
 ];
 
 export const server_loads = [];
 
 export const dictionary = {
 		"/": [3],
-		"/blog": [4],
-		"/events": [5],
-		"/lcm/overlay": [6,[2]],
-		"/projects": [7],
-		"/shock": [8],
-		"/station": [9],
-		"/stream-overlays/furality": [10]
+		"/404": [4],
+		"/blog": [5],
+		"/events": [6],
+		"/lcm/overlay": [7,[2]],
+		"/projects": [8],
+		"/shock": [9],
+		"/station": [10],
+		"/stream-overlays/furality": [11]
 	};
 
 export const hooks = {

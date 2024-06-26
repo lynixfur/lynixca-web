@@ -2,10 +2,6 @@ import { c as create_ssr_component, a as setContext, v as validate_component, m 
 let base = "";
 let assets = base;
 const initial = { base, assets };
-function override(paths) {
-  base = paths.base;
-  assets = paths.assets;
-}
 function reset() {
   base = initial.base;
   assets = initial.assets;
@@ -215,7 +211,7 @@ const options = {
 		<div class="error">
 			<span class="status">` + status + '</span>\n			<div class="message">\n				<h1>' + message + "</h1>\n			</div>\n		</div>\n	</body>\n</html>\n"
   },
-  version_hash: "16ql8v1"
+  version_hash: "1pjyh8x"
 };
 function get_hooks() {
   return {};
@@ -223,15 +219,14 @@ function get_hooks() {
 export {
   assets as a,
   base as b,
-  options as c,
-  set_private_env as d,
-  building as e,
-  set_public_env as f,
+  set_private_env as c,
+  building as d,
+  set_public_env as e,
+  set_safe_public_env as f,
   get_hooks as g,
-  set_safe_public_env as h,
-  set_assets as i,
-  set_building as j,
-  override as o,
+  set_assets as h,
+  set_building as i,
+  options as o,
   public_env as p,
   reset as r,
   safe_public_env as s

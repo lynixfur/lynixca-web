@@ -1,1 +1,1 @@
-export { default as component } from "../../../../src/routes/stream-overlays/furality/+page.svelte";
+export { default as component } from "../../../../src/routes/station/+page.svelte";

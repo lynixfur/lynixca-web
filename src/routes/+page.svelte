@@ -7,7 +7,7 @@
 		<div class="grid gap-4 grid-cols-1 md:grid-cols-3">
 			<div class="my-16 flex flex-col items-start grow md:col-span-2">
 				<div class="block md:flex items-center mb-5 space-x-0 md:space-x-3">
-					<img src="lynix-sticker.png" class="w-20 mb-1.5" alt="lynix"/>
+					<img src="/lynix-sticker.png" class="w-20 mb-1.5" alt="lynix"/>
 					<h1 class="text-6xl font-semibold text-neutral-100">
 						Hi, I'm Lynix!
 					</h1>

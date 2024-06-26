@@ -61,6 +61,14 @@
     "isEntry": true,
     "src": "src/routes/+page.svelte"
   },
+  "src/routes/404/+page.svelte": {
+    "file": "entries/pages/404/_page.svelte.js",
+    "imports": [
+      "_ssr.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/404/+page.svelte"
+  },
   "src/routes/blog/+page.svelte": {
     "file": "entries/pages/blog/_page.svelte.js",
     "imports": [
