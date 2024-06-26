@@ -15,7 +15,10 @@ const config = {
 			fallback: undefined,
 			precompress: false,
 			strict: true
-		})
+		}),
+		paths: {
+			relative: false,
+		},
 	},
 
 	// Consult https://kit.svelte.dev/docs/integrations#preprocessors
