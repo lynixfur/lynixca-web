@@ -9,7 +9,7 @@
 {#if $page.url?.pathname != "/lcm/overlay"}
 <div class="text-white bg-neutral-950">
 	<div class="min-h-screen flex justify-center">
-		{#if $page.url?.pathname == "/"}
+		{#if $page.url?.pathname == "/" || $page.url?.pathname == "/station" || $page.url?.pathname == "/station/"}
 		<div class="background-container w-full">
 			<!-- Cool Space Background? -->
 			<div id='stars'></div>
