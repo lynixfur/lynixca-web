@@ -1,9 +1,10 @@
-import { b as base, r as reset, a as assets, p as public_env, s as safe_public_env, o as options, c as set_private_env, d as building, e as set_public_env, g as get_hooks, f as set_safe_public_env } from "./chunks/internal.js";
+import { b as base, a as assets, o as override, r as reset, p as public_env, s as safe_public_env, c as options, d as set_private_env, e as building, f as set_public_env, g as get_hooks, h as set_safe_public_env } from "./chunks/internal.js";
 import * as devalue from "devalue";
 import { n as noop, s as safe_not_equal } from "./chunks/ssr.js";
 import { parse, serialize } from "cookie";
 import * as set_cookie_parser from "set-cookie-parser";
 const DEV = false;
+const SVELTE_KIT_ASSETS = "/_svelte_kit_assets";
 const ENDPOINT_METHODS = ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS", "HEAD"];
 const PAGE_METHODS = ["GET", "POST", "HEAD"];
 function negotiate(accept, types) {
@@ -1386,8 +1387,17 @@ async function render_response({
   const inline_styles = /* @__PURE__ */ new Map();
   let rendered;
   const form_value = action_result?.type === "success" || action_result?.type === "failure" ? action_result.data ?? null : null;
+  let base$1 = base;
   let assets$1 = assets;
   let base_expression = s(base);
+  if (!state.prerendering?.fallback) {
+    const segments = event.url.pathname.slice(base.length).split("/").slice(2);
+    base$1 = segments.map(() => "..").join("/") || ".";
+    base_expression = `new URL(${s(base$1)}, location).pathname.slice(0, -1)`;
+    if (!assets || assets[0] === "/" && assets !== SVELTE_KIT_ASSETS) {
+      assets$1 = base$1;
+    }
+  }
   if (page_config.ssr) {
     const props = {
       stores: {
@@ -1416,6 +1426,7 @@ async function render_response({
       form: form_value,
       state: {}
     };
+    override({ base: base$1, assets: assets$1 });
     {
       try {
         rendered = options2.root.render(props);

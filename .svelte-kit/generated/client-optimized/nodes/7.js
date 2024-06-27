@@ -1,1 +1,1 @@
-export { default as component } from "../../../../src/routes/lcm/overlay/+page.svelte";
+export { default as component } from "../../../../src/routes/projects/+page.svelte";
