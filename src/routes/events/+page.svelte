@@ -2,6 +2,7 @@
 </script>
 
 <div class="my-20">
+    
     <h1 class="text-6xl font-semibold text-neutral-100 pb-2">
         NB Furs Furry Day (Animaritime)
     </h1>
@@ -28,7 +29,7 @@
             <p
                 class="flex-1 mt-5 px-3 py-1.5 font-bold text-white text-center text-4xl flex flex-col"
             >
-                <i class="fa-solid fa-paw text-[60px] text-[#7dedd9]"></i> 0
+                <i class="fa-solid fa-paw text-[60px] text-[#7dedd9]"></i> 4
                 Boops
                 <span class="text-xs font-semibold mt-2"
                     >Boops may be delayed until the convention ends due to
@@ -43,11 +44,17 @@
         >
             Happening Now
         </p>
+        <p
+        class="flex items-center mt-5 px-3 py-1.5 rounded-full bg-red-500 font-bold text-red-950 text-xl text-center w-[280px]"
+    >
+    <img src="/Warning.png" class="w-5 h-5 mx-2" />
+        Checklist Incomplete
+    </p>
         <a href="https://www.animaritime.info/programming"
             ><p
                 class="mt-5 px-3 py-1.5 rounded-full bg-neutral-800 font-bold text-white text-xl text-center w-[200px]"
             >
-                <i class="fa-solid fa-link"></i> Panels
+                <i class="fa-solid fa-calendar mr-1"></i> Panels
             </p></a
         >
     </div>
