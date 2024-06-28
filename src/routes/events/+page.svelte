@@ -44,12 +44,6 @@
         >
             Happening Now
         </p>
-        <p
-        class="flex items-center mt-5 px-3 py-1.5 rounded-full bg-red-500 font-bold text-red-950 text-xl text-center w-[280px]"
-    >
-    <img src="/Warning.png" class="w-5 h-5 mx-2" />
-        Checklist Incomplete
-    </p>
         <a href="https://www.animaritime.info/programming"
             ><p
                 class="mt-5 px-3 py-1.5 rounded-full bg-neutral-800 font-bold text-white text-xl text-center w-[200px]"
