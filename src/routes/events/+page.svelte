@@ -4,15 +4,23 @@
 <div class="my-20">
     
     <h1 class="text-6xl font-semibold text-neutral-100 pb-2">
-        Animaritime 2024
+        Up Next
     </h1>
-    <p class="text-xl mb-5">Fredericton, NB - June 28 - July 1st, 2024</p>
+    <p class="text-xl mb-5">Project Howl - Fredericton, NB</p>
+    <div
+    class="bg-red-900 py-2 px-5 mb-5 max-w-[800px] rounded-3xl font-semibold -ml-1 md:mt-5 mt-10 flex space-x-4 items-center"
+>
+    <img src="/Warning.png" class="w-10 h-10" />
+    <p>
+        No event date is set for this event.
+    </p>
+</div>
     <div
         class="min-h-[400px] w-full rounded-2xl bg-neutral-900"
         style="background:url(/freedy.jpeg);background-size: cover;background-position: center;"
     ></div>
     <div
-        class="bg-[#003978] py-5 px-5 mt-5 max-w-[800px] rounded-xl font-semibold"
+        class="bg-[#003978] py-5 px-5 mt-5 max-w-[800px] rounded-xl font-semibold hidden"
     >
         <div class="flex space-x-2 items-center text-lg">
             <img src="/Megaphone.png" class="w-14" alt="Megaphone Icon" />
@@ -36,13 +44,13 @@
     </div>
     <div class="flex items-center space-x-4">
         <p
-            class="mt-5 px-3 py-1.5 rounded-full bg-red-500 font-bold text-red-950 text-xl text-center w-[350px]"
+            class="mt-5 px-3 py-1.5 rounded-full bg-cyan-500 font-bold text-cyan-950 text-xl text-center w-[350px]"
         >
-            Ended
+            Upcoming
         </p>
         <a href="https://www.animaritime.info/programming"
             ><p
-                class="mt-5 px-3 py-1.5 rounded-full bg-neutral-800 font-bold text-white text-xl text-center w-[200px]"
+                class="hidden mt-5 px-3 py-1.5 rounded-full bg-neutral-800 font-bold text-white text-xl text-center w-[200px]"
             >
                 <i class="fa-solid fa-calendar mr-1"></i> Panels
             </p></a
@@ -52,10 +60,10 @@
     <h1 class="mt-10 text-6xl font-semibold text-neutral-100 pb-2">
         Future Events
     </h1>
-    <p class="text-lg text-neutral-400 hidden">
+    <p class="text-lg text-neutral-400">
         No future events planned at the moment!
     </p>
-    <div class="grid grid-cols-2 gap-10 pt-10">
+    <div class="grid grid-cols-2 gap-10 pt-10 hidden">
         <div class="flex space-x-4">
             <div>
                 <h2 class="text-2xl text-cyan-500 font-bold mb-2">
@@ -152,6 +160,44 @@
     </div>
 
     <div class="grid grid-cols-2 gap-10 pt-10">
+        <div class="flex space-x-4">
+            <div>
+                <h2 class="text-2xl text-cyan-500 font-bold mb-2">
+                    Animaritime 2024
+                </h2>
+                <p class="font-semibold text-cyan-200">
+                    {`June 28 - 30, 2024 - Fredericton, NB`}
+                </p>
+                <p>
+                    Animaritime is an annual convention held in the Maritime provinces of Canada that celebrates anime, manga, and other aspects of Japanese pop culture.
+                </p>
+                <div class="flex space-x-2 mt-3">
+                    <a
+                        href="https://lynix.ca"
+                        target="_blank"
+                        class="h-10 w-10 bg-neutral-800 border border-neutral-700 p-2 flex items-center justify-center rounded-2xl text-neutral-300 hover:text-neutral-400 transition-colors"
+                        ><i class="fa-solid fa-link"></i></a
+                    >
+                    <a
+                        href="https://lynix.ca"
+                        target="_blank"
+                        class="h-10 w-10 bg-neutral-800 border border-neutral-700 p-2 flex items-center justify-center rounded-2xl text-neutral-300 hover:text-neutral-400 transition-colors"
+                        ><i class="fa-solid fa-folder"></i></a
+                    >
+                    <a
+                        href="https://lynix.ca"
+                        target="_blank"
+                        class="h-10 px-4 bg-blue-500 text-blue-950 text-lg font-bold py-1.5 rounded-2xl"
+                        >369 Boops</a
+                    >
+                </div>
+            </div>
+            <img
+                src="/anim.webp"
+                alt="Lynix"
+                class="rounded-xl w-32 h-32 pt-5 border-2 bg-neutral-900 border-neutral-800 p-3 object-fit"
+            />
+        </div>
         <div class="flex space-x-4">
             <div>
                 <h2 class="text-2xl text-cyan-500 font-bold mb-2">
