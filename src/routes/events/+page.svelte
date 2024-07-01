@@ -4,9 +4,9 @@
 <div class="my-20">
     
     <h1 class="text-6xl font-semibold text-neutral-100 pb-2">
-        NB Furs Furry Day (Animaritime)
+        Animaritime 2024
     </h1>
-    <p class="text-xl mb-5">Fredericton, NB - June 28 - 30, 2024</p>
+    <p class="text-xl mb-5">Fredericton, NB - June 28 - July 1st, 2024</p>
     <div
         class="min-h-[400px] w-full rounded-2xl bg-neutral-900"
         style="background:url(/freedy.jpeg);background-size: cover;background-position: center;"
@@ -29,20 +29,16 @@
             <p
                 class="flex-1 mt-5 px-3 py-1.5 font-bold text-white text-center text-4xl flex flex-col"
             >
-                <i class="fa-solid fa-paw text-[60px] text-[#7dedd9]"></i> 4
+                <i class="fa-solid fa-paw text-[60px] text-[#7dedd9]"></i> 369
                 Boops
-                <span class="text-xs font-semibold mt-2"
-                    >Boops may be delayed until the convention ends due to
-                    internet connectivity issues!</span
-                >
             </p>
         </div>
     </div>
     <div class="flex items-center space-x-4">
         <p
-            class="mt-5 px-3 py-1.5 rounded-full bg-green-500 font-bold text-green-950 text-xl text-center w-[350px]"
+            class="mt-5 px-3 py-1.5 rounded-full bg-red-500 font-bold text-red-950 text-xl text-center w-[350px]"
         >
-            Happening Now
+            Ended
         </p>
         <a href="https://www.animaritime.info/programming"
             ><p
