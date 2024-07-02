@@ -6,9 +6,20 @@
     <h1 class="text-6xl font-semibold text-neutral-100 pb-2">
         Up Next
     </h1>
-    <p class="text-xl mb-5">Project Howl - Fredericton, NB</p>
     <div
-    class="bg-red-900 py-2 px-5 mb-5 max-w-[800px] rounded-3xl font-semibold -ml-1 md:mt-5 mt-10 flex space-x-4 items-center"
+    class="bg-red-900 py-2 px-5 max-w-[800px] rounded-3xl font-semibold -ml-1 md:mt-5 mt-10 flex space-x-4 items-center"
+>
+    <img src="/Warning.png" class="w-10 h-10" />
+    <p>
+        Attention! Future Conventions are cancelled until futher notice due to an Emergency. Convention archives are no longer available for saving resources!
+    </p>
+</div>
+
+<p class="text-lg text-neutral-400 mt-10">
+    No events found.
+</p>
+    <div
+    class="bg-red-900 py-2 px-5 mb-5 max-w-[800px] rounded-3xl font-semibold -ml-1 md:mt-5 mt-10 flex space-x-4 items-center hidden"
 >
     <img src="/Warning.png" class="w-10 h-10" />
     <p>
@@ -16,13 +27,13 @@
     </p>
 </div>
     <div
-        class="min-h-[400px] w-full rounded-2xl bg-neutral-900"
+        class="hidden min-h-[400px] w-full rounded-2xl bg-neutral-900"
         style="background:url(/freedy.jpeg);background-size: cover;background-position: center;"
     ></div>
     <div
-        class="bg-[#003978] py-5 px-5 mt-5 max-w-[800px] rounded-xl font-semibold hidden"
+        class=" hidden bg-[#003978] py-5 px-5 mt-5 max-w-[800px] rounded-xl font-semibold hidden"
     >
-        <div class="flex space-x-2 items-center text-lg">
+        <div class="hidden flex space-x-2 items-center text-lg">
             <img src="/Megaphone.png" class="w-14" alt="Megaphone Icon" />
             <p>
                 CyberFox badge is coming with me for this convention! Boop now!
@@ -42,7 +53,7 @@
             </p>
         </div>
     </div>
-    <div class="flex items-center space-x-4">
+    <div class="hidden flex items-center space-x-4">
         <p
             class="mt-5 px-3 py-1.5 rounded-full bg-cyan-500 font-bold text-cyan-950 text-xl text-center w-[350px]"
         >
@@ -60,7 +71,7 @@
     <h1 class="mt-10 text-6xl font-semibold text-neutral-100 pb-2">
         Future Events
     </h1>
-    <p class="text-lg text-neutral-400">
+    <p class="text-lg text-neutral-400 mb-[100px] mt-10">
         No future events planned at the moment!
     </p>
     <div class="grid grid-cols-2 gap-10 pt-10 hidden">
@@ -138,19 +149,9 @@
     <h1 class="mt-10 text-6xl font-semibold text-neutral-100 pb-2">
         Past Events
     </h1>
-    <div
-        class="bg-red-900 py-2 px-5 max-w-[800px] rounded-3xl font-semibold -ml-1 md:mt-5 mt-10 flex space-x-4 items-center"
-    >
-        <img src="/Warning.png" class="w-10 h-10" />
-        <p>
-            Attention! Convention Archives are no longer available due to a
-            critcial system failure that happend in June 2024. Future
-            conventions will continue to have archives.
-        </p>
-    </div>
 
     <!-- Search Bar & Filters -->
-    <div class="mt-5 flex items-center space-x-4 w-1/2">
+    <div class="mt-5 flex items-center space-x-4 w-1/2 hidden">
         <!-- Search Bar -->
         <input
             type="text"
@@ -171,23 +172,23 @@
                 <p>
                     Animaritime is an annual convention held in the Maritime provinces of Canada that celebrates anime, manga, and other aspects of Japanese pop culture.
                 </p>
-                <div class="flex space-x-2 mt-3">
+                <div class="flex mt-3">
                     <a
                         href="https://lynix.ca"
                         target="_blank"
-                        class="h-10 w-10 bg-neutral-800 border border-neutral-700 p-2 flex items-center justify-center rounded-2xl text-neutral-300 hover:text-neutral-400 transition-colors"
+                        class="hidden h-10 w-10 bg-neutral-800 border border-neutral-700 p-2 flex items-center justify-center rounded-2xl text-neutral-300 hover:text-neutral-400 transition-colors"
                         ><i class="fa-solid fa-link"></i></a
                     >
                     <a
                         href="https://lynix.ca"
                         target="_blank"
-                        class="h-10 w-10 bg-neutral-800 border border-neutral-700 p-2 flex items-center justify-center rounded-2xl text-neutral-300 hover:text-neutral-400 transition-colors"
+                        class="hidden h-10 w-10 bg-neutral-800 border border-neutral-700 p-2 flex items-center justify-center rounded-2xl text-neutral-300 hover:text-neutral-400 transition-colors"
                         ><i class="fa-solid fa-folder"></i></a
                     >
                     <a
                         href="https://lynix.ca"
                         target="_blank"
-                        class="h-10 px-4 bg-blue-500 text-blue-950 text-lg font-bold py-1.5 rounded-2xl"
+                        class="h-10 px-4 bg-cyan-500 text-cyan-950 text-lg font-bold py-1.5 rounded-2xl"
                         >369 Boops</a
                     >
                 </div>
@@ -213,29 +214,29 @@
                     exploration, all designed to foster community engagement and
                     creativity.
                 </p>
-                <div class="flex space-x-2 mt-3">
+                <div class="flex mt-3">
                     <a
                         href="https://lynix.ca"
                         target="_blank"
-                        class="h-10 w-10 bg-neutral-800 border border-neutral-700 p-2 flex items-center justify-center rounded-2xl text-neutral-300 hover:text-neutral-400 transition-colors"
+                        class="hidden h-10 w-10 bg-neutral-800 border border-neutral-700 p-2 flex items-center justify-center rounded-2xl text-neutral-300 hover:text-neutral-400 transition-colors"
                         ><i class="fa-solid fa-link"></i></a
                     >
                     <a
                         href="https://lynix.ca"
                         target="_blank"
-                        class="h-10 w-10 bg-neutral-800 border border-neutral-700 p-2 flex items-center justify-center rounded-2xl text-neutral-300 hover:text-neutral-400 transition-colors"
+                        class="hidden h-10 w-10 bg-neutral-800 border border-neutral-700 p-2 flex items-center justify-center rounded-2xl text-neutral-300 hover:text-neutral-400 transition-colors"
                         ><i class="fa-solid fa-folder"></i></a
                     >
                     <a
                         href="https://lynix.ca"
                         target="_blank"
-                        class="h-10 px-4 bg-blue-500 text-blue-950 text-lg font-bold py-1.5 rounded-2xl"
+                        class="h-10 mr-2 px-4 bg-cyan-500 text-cyan-950 text-lg font-bold py-1.5 rounded-2xl"
                         >4713 Headpats</a
                     >
                     <a
                         href="https://lynix.ca"
                         target="_blank"
-                        class="h-10 px-4 bg-blue-500 text-blue-950 text-lg font-bold py-1.5 rounded-2xl"
+                        class="h-10 px-4 bg-cyan-500 text-cyan-950 text-lg font-bold py-1.5 rounded-2xl"
                         >1 Boops</a
                     >
                 </div>
@@ -260,17 +261,17 @@
                     its kind in the country, bringing together enthusiasts of
                     anthropomorphic art, characters, and culture.
                 </p>
-                <div class="flex space-x-2 mt-3">
+                <div class="flex mt-3">
                     <a
                         href="https://lynix.ca"
                         target="_blank"
-                        class="h-10 w-10 bg-neutral-800 border border-neutral-700 p-2 flex items-center justify-center rounded-2xl text-neutral-300 hover:text-neutral-400 transition-colors"
-                        ><i class="fa-solid fa-link"></i></a
+                        class="hidden h-10 w-10 bg-neutral-800 border border-neutral-700 p-2 flex items-center justify-center rounded-2xl text-neutral-300 hover:text-neutral-400 transition-colors"
+                        ><i class="fa-solid fa-link hidden"></i></a
                     >
                     <a
                         href="https://lynix.ca"
                         target="_blank"
-                        class="h-10 px-4 bg-blue-500 text-blue-950 text-lg font-bold py-1.5 rounded-2xl"
+                        class="h-10 px-4 bg-cyan-500 text-cyan-950 text-lg font-bold py-1.5 rounded-2xl"
                         >37 Boops</a
                     >
                 </div>
@@ -296,17 +297,17 @@
                     exploration, all designed to foster community engagement and
                     creativity.
                 </p>
-                <div class="flex space-x-2 mt-3">
+                <div class="flex mt-3">
                     <a
                         href="https://lynix.ca"
                         target="_blank"
-                        class="h-10 w-10 bg-neutral-800 border border-neutral-700 p-2 flex items-center justify-center rounded-2xl text-neutral-300 hover:text-neutral-400 transition-colors"
+                        class="hidden h-10 w-10 bg-neutral-800 border border-neutral-700 p-2 flex items-center justify-center rounded-2xl text-neutral-300 hover:text-neutral-400 transition-colors"
                         ><i class="fa-solid fa-link"></i></a
                     >
                     <a
                         href="https://lynix.ca"
                         target="_blank"
-                        class="h-10 px-4 bg-blue-500 text-blue-950 text-lg font-bold py-1.5 rounded-2xl"
+                        class="h-10 px-4 bg-cyan-500 text-cyan-950 text-lg font-bold py-1.5 rounded-2xl"
                         >0 Boops</a
                     >
                 </div>
@@ -332,17 +333,17 @@
                     exploration, all designed to foster community engagement and
                     creativity.
                 </p>
-                <div class="flex space-x-2 mt-3">
+                <div class="flex mt-3">
                     <a
                         href="https://lynix.ca"
                         target="_blank"
-                        class="h-10 w-10 bg-neutral-800 border border-neutral-700 p-2 flex items-center justify-center rounded-2xl text-neutral-300 hover:text-neutral-400 transition-colors"
+                        class="hidden h-10 w-10 bg-neutral-800 border border-neutral-700 p-2 flex items-center justify-center rounded-2xl text-neutral-300 hover:text-neutral-400 transition-colors"
                         ><i class="fa-solid fa-link"></i></a
                     >
                     <a
                         href="https://lynix.ca"
                         target="_blank"
-                        class="h-10 px-4 bg-blue-500 text-blue-950 text-lg font-bold py-1.5 rounded-2xl"
+                        class="h-10 px-4 bg-cyan-500 text-cyan-950 text-lg font-bold py-1.5 rounded-2xl"
                         >0 Boops</a
                     >
                 </div>
