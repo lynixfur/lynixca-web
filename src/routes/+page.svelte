@@ -13,25 +13,25 @@
 				throw new Error(`HTTP error! status: ${response.status}`);
 			}
 			const data = await response.json();
-			status = data.status; // Assuming the API returns a JSON object with a `status` field
+			status = "Partial Outage"; // Assuming the API returns a JSON object with a `status` field
 			updateStatusClass();
 		} catch (error) {
-			status = 'Offline';
+			status = "Partial Outage";
 			updateStatusClass();
 			console.error(error);
 		}
 	});
 
 	function updateStatusClass() {
-		if(status == "Healthy") {
+		/*if(status == "Healthy") {
 			statusClass = "text-green-500";
 		} 
-		if(status == "Degraded") {
+		if(status == "Degraded") {*/
 			statusClass = "text-orange-500";	
-		}
-		if(status == "Offline") {
+		//}
+		/*if(status == "Offline") {
 			statusClass = "text-red-500";	
-		}
+		}*/
 	}
 </script>
 

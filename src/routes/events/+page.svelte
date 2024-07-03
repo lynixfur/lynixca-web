@@ -7,7 +7,7 @@
         Up Next
     </h1>
     <div
-    class="bg-red-900 py-2 px-5 max-w-[800px] rounded-3xl font-semibold -ml-1 md:mt-5 mt-10 flex space-x-4 items-center"
+    class="bg-red-900 py-2 px-5 max-w-[800px] rounded-3xl font-semibold -ml-1 md:mt-5 mt-10 flex space-x-4 items-center hidden"
 >
     <img src="/Warning.png" class="w-10 h-10" />
     <p>
@@ -16,7 +16,7 @@
 </div>
 
 <p class="text-lg text-neutral-400 mt-10">
-    No events found.
+    No upcoming event found!
 </p>
     <div
     class="bg-red-900 py-2 px-5 mb-5 max-w-[800px] rounded-3xl font-semibold -ml-1 md:mt-5 mt-10 flex space-x-4 items-center hidden"
