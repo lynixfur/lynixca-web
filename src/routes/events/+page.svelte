@@ -160,7 +160,7 @@
         />
     </div>
 
-    <div class="grid md:grid-cols-2 grid-cols-1  gap-10 pt-10">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-10 pt-10">
         <div class="flex space-x-4">
             <div>
                 <h2 class="text-2xl text-cyan-500 font-bold mb-2">

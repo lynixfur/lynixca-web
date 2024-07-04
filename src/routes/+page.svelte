@@ -5,20 +5,25 @@
 
 	let status = 'Fetching status...';
 	let statusClass = "text-cyan-500"
+    let responseTime = '9999ms';
 
 	onMount(async () => {
+        const startTime = performance.now();
 		try {
 			const response = await fetch('https://api.lynix.ca');
+            const endTime = performance.now();
+            responseTime = `${(endTime - startTime).toFixed(2)} ms`;
 			if (!response.ok) {
 				throw new Error(`HTTP error! status: ${response.status}`);
 			}
-			const data = await response.json();
+			//const data = await response.json();
 			status = "Partial Outage"; // Assuming the API returns a JSON object with a `status` field
 			updateStatusClass();
 		} catch (error) {
 			status = "Partial Outage";
 			updateStatusClass();
 			console.error(error);
+            alert(error);
 		}
 	});
 
@@ -45,10 +50,10 @@
 						Hi, I'm Lynix!
 					</h1>
 				</div>
-				<p class="pt-4 text-lg grow text-neutral-400">
+				<p class="pt-4 text-lg grow text-neutral-300">
 					As a proud member of the furry community, I believe in using technology to promote inclusivity. My IT expertise allows me to build bridges and create platforms that welcome diverse voices, fostering a more connected and understanding world.
 					<br/><br/>
-					<span class="text-sm font-semibold {statusClass}">Lynx Network - {status}</span>
+					<span class="text-sm font-semibold {statusClass}">Lynx Network - {status} ({responseTime})</span>
 				</p>
 				<div class="grid gap-5 grid-cols-5 mt-8">
 					<a href="https://discord.com/users/885224265014738975" aria-label="Discord">
