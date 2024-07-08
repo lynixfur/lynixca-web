@@ -15,7 +15,7 @@
     </p>
 </div>
 
-<p class="text-lg text-neutral-400 mt-10">
+<p class="text-lg text-neutral-400 mt-10 hidden">
     No upcoming event found!
 </p>
     <div
@@ -26,9 +26,12 @@
         No event date is set for this event.
     </p>
 </div>
+<br/>
+<h1 class="text-4xl font-bold mt-3 mb-1">Project Howl</h1>
+<p class="mb-3">Canada - July 7th 2024 to July 31st 2024</p>
     <div
-        class="hidden min-h-[400px] w-full rounded-2xl bg-neutral-900"
-        style="background:url(/freedy.jpeg);background-size: cover;background-position: center;"
+        class="min-h-[400px] w-full rounded-2xl bg-neutral-900"
+        style="background:url(/qc.avif);background-size: cover;background-position: center;"
     ></div>
     <div
         class=" hidden bg-[#003978] py-5 px-5 mt-5 max-w-[800px] rounded-xl font-semibold hidden"
@@ -53,19 +56,18 @@
             </p>
         </div>
     </div>
-    <div class="hidden flex items-center space-x-4">
+    <div class="flex items-center space-x-4">
         <p
-            class="mt-5 px-3 py-1.5 rounded-full bg-cyan-500 font-bold text-cyan-950 text-xl text-center w-[350px]"
+            class="mt-5 px-3 py-1.5 rounded-full bg-green-500 font-bold text-green-950 text-xl text-center w-[350px]"
         >
-            Upcoming
+            Happening Now
         </p>
-        <a href="https://www.animaritime.info/programming"
+        <a href="https://lynix.ca/howl"
             ><p
-                class="hidden mt-5 px-3 py-1.5 rounded-full bg-neutral-800 font-bold text-white text-xl text-center w-[200px]"
+                class="mt-5 px-3 py-1.5 rounded-full bg-neutral-800 font-bold text-white text-xl text-center w-[300px]"
             >
-                <i class="fa-solid fa-calendar mr-1"></i> Panels
-            </p></a
-        >
+                <i class="fa-solid fa-info-circle mr-1"></i> Learn More
+            </p></a>
     </div>
     <!-- More Events -->
     <h1 class="mt-10 text-6xl font-semibold text-neutral-100 pb-2">
