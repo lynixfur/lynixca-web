@@ -7,11 +7,11 @@
         Up Next
     </h1>
     <div
-    class="bg-red-900 py-2 px-5 max-w-[800px] rounded-3xl font-semibold -ml-1 md:mt-5 mt-10 flex space-x-4 items-center hidden"
+    class="bg-red-900 py-2 px-5 max-w-[800px] rounded-3xl font-semibold -ml-1 md:mt-5 mt-10 flex space-x-4 items-center"
 >
     <img src="/Warning.png" class="w-10 h-10" />
     <p>
-        Attention! Future Conventions are cancelled until futher notice due to an Emergency. Convention archives are no longer available for saving resources!
+        Attention! All Toronto, ON conventions are now confirmed for future years.
     </p>
 </div>
 
@@ -74,7 +74,7 @@
     <p class="text-lg text-neutral-400 mb-[100px] mt-10">
         No future events planned at the moment!
     </p>
-    <div class="grid grid-cols-2 gap-10 pt-10 hidden">
+    <div class="grid grid-cols-2 gap-10 pt-10">
         <div class="flex space-x-4">
             <div>
                 <h2 class="text-2xl text-cyan-500 font-bold mb-2">
@@ -110,7 +110,7 @@
                 class="rounded-xl w-32 h-32 mb-1 border-2 bg-neutral-900 border-neutral-800 p-3"
             />
         </div>
-        <div class="flex space-x-4">
+        <div class="flex space-x-4 hidden">
             <div>
                 <h2 class="text-2xl text-cyan-500 font-bold mb-2">
                     Furry Weekend Atlanta
