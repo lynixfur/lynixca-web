@@ -71,7 +71,7 @@
     <h1 class="mt-10 text-6xl font-semibold text-neutral-100 pb-2">
         Future Events
     </h1>
-    <p class="text-lg text-neutral-400 mb-[100px] mt-10">
+    <p class="text-lg text-neutral-400 mb-[100px] mt-10 hidden">
         No future events planned at the moment!
     </p>
     <div class="grid grid-cols-2 gap-10 pt-10">
