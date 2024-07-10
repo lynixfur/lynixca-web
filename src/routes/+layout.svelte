@@ -16,7 +16,13 @@
 			<div id='stars2'></div>
 			<div id='stars3'></div>
 		</div>
+		<div class="background-container w-full">
+			<!-- CN Tower -->
+		  	<p class="hidden">CN Tower by Fatemah Manji from https://thenounproject.com/browse/icons/term/cn-tower/ (CC BY 3.0)</p>
+		  	<img src="/cn-tower.svg" class="cn-tower" alt="Toronto CN Tower"/>
+	 	 </div>
 	  	{/if}
+
 		<div class="z-50 md:w-3/4 w-full md:px-0 px-7">
 			<Navbar />
 			<Banner />

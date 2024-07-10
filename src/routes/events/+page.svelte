@@ -3,13 +3,13 @@
 
 <div class="my-20">
     
-    <h1 class="text-6xl font-semibold text-neutral-100 pb-2">
+    <h1 class="text-6xl font-semibold text-neutral-100 pb-2 hidden">
         Up Next
     </h1>
     <div
-    class="bg-red-900 py-2 px-5 max-w-[800px] rounded-3xl font-semibold -ml-1 md:mt-5 mt-10 flex space-x-4 items-center"
+    class="bg-cyan-800 py-2 px-5 max-w-[800px] rounded-3xl font-semibold -ml-1 md:mt-5 mt-10 flex space-x-4 items-center"
 >
-    <img src="/Warning.png" class="w-10 h-10" />
+    <img src="/Megaphone.png" class="w-10 h-10" />
     <p>
         Attention! All Toronto, ON conventions are now confirmed for future years.
     </p>
@@ -27,10 +27,10 @@
     </p>
 </div>
 <br/>
-<h1 class="text-4xl font-bold mt-3 mb-1">Project Howl</h1>
-<p class="mb-3">Canada - July 7th 2024 to July 31st 2024</p>
+<h1 class="text-4xl font-bold mt-3 mb-1 hidden">Project Howl</h1>
+<p class="mb-3 hidden">Canada - July 7th 2024 to July 31st 2024</p>
     <div
-        class="min-h-[400px] w-full rounded-2xl bg-neutral-900"
+        class="hidden min-h-[400px] w-full rounded-2xl bg-neutral-900"
         style="background:url(/qc.avif);background-size: cover;background-position: center;"
     ></div>
     <div
@@ -56,7 +56,7 @@
             </p>
         </div>
     </div>
-    <div class="flex items-center space-x-4">
+    <div class="hidden flex items-center space-x-4">
         <p
             class="mt-5 px-3 py-1.5 rounded-full bg-green-500 font-bold text-green-950 text-xl text-center w-[350px]"
         >
