@@ -1,1 +1,1 @@
-export { default as component } from "../../../../src/routes/events/+page.svelte";
+export { default as component } from "../../../../src/routes/blog/why-fe-changed-my-life/+page.svelte";

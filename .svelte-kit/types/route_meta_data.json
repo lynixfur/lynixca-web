@@ -12,6 +12,9 @@
 	"/blog": [
 		"src/routes/+layout.js"
 	],
+	"/blog/why-fe-changed-my-life": [
+		"src/routes/+layout.js"
+	],
 	"/events": [
 		"src/routes/+layout.js"
 	],

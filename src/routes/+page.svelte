@@ -17,10 +17,10 @@
                 throw new Error(`HTTP error! status: ${response.status}`);
             }
             //const data = await response.json();
-            status = "Partial Outage"; // Assuming the API returns a JSON object with a `status` field
+            status = "Healthy"; // Assuming the API returns a JSON object with a `status` field
             updateStatusClass();
         } catch (error) {
-            status = "Partial Outage";
+            status = "Healthy";
             updateStatusClass();
             console.error(error);
            // alert(error);
@@ -32,7 +32,7 @@
 			statusClass = "text-green-500";
 		} 
 		if(status == "Degraded") {*/
-        statusClass = "text-orange-500";
+        statusClass = "text-green-500";
         //}
         /*if(status == "Offline") {
 			statusClass = "text-red-500";	

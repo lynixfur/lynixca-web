@@ -83,7 +83,7 @@
                     Furnal Equinox 2025
                 </h2>
                 <p class="font-semibold text-cyan-200">
-                    {`March 2025 - Toronto, ON`}
+                    {`March 2025 - Toronto, ON`} <i class="fa-solid fa-star"></i>
                 </p>
                 <p>
                     Furnal Equinox is an annual furry convention held in
@@ -112,19 +112,16 @@
                 class="rounded-xl w-32 h-32 mb-1 border-2 bg-neutral-900 border-neutral-800 p-3"
             />
         </div>
-        <div class="flex space-x-4 hidden">
+        <div class="flex space-x-4">
             <div>
                 <h2 class="text-2xl text-cyan-500 font-bold mb-2">
-                    Furry Weekend Atlanta
+                    CanFurence
                 </h2>
                 <p class="font-semibold text-cyan-200">
-                    {`May 8 2025 - Atlanta, Georgia`}
+                    {`Aug 2 2024 - Ottawa, ON`}
                 </p>
                 <p>
-                    FWA is dedicated to the interests and activities of the
-                    furry fandom, a subculture focused on anthropomorphic
-                    animals, which are animals with human characteristics. FWA
-                    is one of the larger furry conventions in the United States.
+                    CanFurence 2024 is dedicated to the interests and activities of the furry fandom, a subculture focused on anthropomorphic animals, which are animals with human characteristics. CanFurence is one of the larger furry conventions in Canada.
                 </p>
                 <div class="flex space-x-2 mt-3">
                     <a
@@ -136,13 +133,13 @@
                     <a
                         href="https://lynix.ca"
                         target="_blank"
-                        class="h-10 px-4 bg-cyan-500 font-bold text-cyan-950 text-lg font-bold py-1.5 rounded-2xl"
-                        >Planned</a
+                        class="h-10 px-4 bg-yellow-500 font-bold text-yellow-950 text-lg font-bold py-1.5 rounded-2xl"
+                        >Maybe</a
                     >
                 </div>
             </div>
             <img
-                src="/LynixLogo.svg"
+                src="https://en.wikifur.com/w/images/0/08/CanFURenceLogo.png"
                 alt="Lynix"
                 class="rounded-xl w-32 h-32 pt-5 border-2 bg-neutral-900 border-neutral-800 p-3 object-fit"
             />
@@ -163,6 +160,31 @@
     </div>
 
     <div class="grid grid-cols-1 md:grid-cols-2 gap-10 pt-10">
+        <div class="flex space-x-4">
+            <div>
+                <h2 class="text-2xl text-cyan-500 font-bold mb-2">
+                    Toronto Art Fair 2024
+                </h2>
+                <p class="font-semibold text-cyan-200">
+                    {`July 12 2024 - Toronto, ON`} <i class="fa-solid fa-star"></i>
+                </p>
+                <p>
+                    The Toronto Art Fair, officially known as Art Toronto, is an annual international contemporary and modern art fair held in Toronto, Canada. It showcases a wide range of artworks, including paintings, sculptures, photographs, and multimedia pieces, from both Canadian and international artists.
+                </p>
+                <div class="flex space-x-2 mt-3">
+                    <a
+                        href="https://lynix.ca"
+                        target="_blank"
+                        class="h-10 px-4 bg-cyan-500 font-bold text-cyan-950 text-lg font-bold py-1.5 rounded-2xl"
+                        >117 Boops</a>
+                </div>
+            </div>
+            <img
+                src="https://torontosocietyofarchitects.ca/wp-content/uploads/2024/05/TOAF_Logo_Blue_White_Bg-2-scaled.jpg"
+                alt="Lynix"
+                class="rounded-xl w-32 h-32 mb-1 border-2 bg-neutral-900 border-neutral-800 p-3"
+            />
+        </div>
         <div class="flex space-x-4">
             <div>
                 <h2 class="text-2xl text-cyan-500 font-bold mb-2">

@@ -23,11 +23,11 @@
 	});
 </script>
 <div
-class="hidden bg-red-900 py-2 px-5 max-w-[800px] rounded-3xl font-semibold -ml-1 md:mt-5 mt-10 flex space-x-4 items-center"
+class="bg-red-900 py-2 px-5 max-w-[800px] rounded-3xl font-semibold -ml-1 md:mt-5 mt-10 flex space-x-4 items-center"
 >
 <img src="/Warning.png" class="w-10 h-10" />
 <p>
-	Attention! Project Howl is currently in effect please contact me on discord urgently!
+	The Lynx Network is now being migrated to Toronto, ON! New servers include FH-TR1 and FH-TRX. Data on the Lynx Cloud is now encrypted by default!
 </p>
 </div>
 {#if daysUntilToronto > 0}
