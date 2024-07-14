@@ -96,14 +96,12 @@
                         href="https://lynix.ca"
                         target="_blank"
                         class="h-10 w-10 bg-neutral-800 border border-neutral-700 p-2 flex items-center justify-center rounded-2xl text-neutral-300 hover:text-neutral-400 transition-colors"
-                        ><i class="fa-solid fa-link"></i></a
-                    >
+                        ><i class="fa-solid fa-link"></i></a>                    
                     <a
                         href="https://lynix.ca"
                         target="_blank"
                         class="h-10 px-4 bg-cyan-500 font-bold text-cyan-950 text-lg font-bold py-1.5 rounded-2xl"
-                        >Planned</a
-                    >
+                        >Planned</a>
                 </div>
             </div>
             <img

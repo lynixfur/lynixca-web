@@ -18,6 +18,9 @@
 	"/events": [
 		"src/routes/+layout.js"
 	],
+	"/order/047221": [
+		"src/routes/+layout.js"
+	],
 	"/projects": [
 		"src/routes/+layout.js"
 	],
