@@ -62,7 +62,7 @@
                     to build bridges and create platforms that welcome diverse
                     voices, fostering a more connected and understanding world.
                     <br /><br />
-                    <span class="text-sm font-semibold {statusClass}"
+                    <span class="hidden text-sm font-semibold {statusClass}"
                         >Lynx Network - {status}
                         {#if responseTime}
                             ({responseTime})

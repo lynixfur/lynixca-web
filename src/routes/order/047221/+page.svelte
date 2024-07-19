@@ -4,7 +4,7 @@
 
 <div class="flex flex-col my-20">
     <h1 class="text-6xl font-semibold mb-2 text-white">Freakshock Order #047221</h1>
-    <h1 class="text-3xl font-semibold mb-1 text-cyan-500">Waiting for Payment <i class="fa-solid fa-gear fa-spin"></i></h1>
+    <h1 class="text-3xl font-semibold mb-1 text-orange-500">Hold <i class="fa-solid fa-gear fa-spin"></i></h1>
     <h1 class="text-2xl font-semibold mb-5 text-green-500">Estimated Delivery to Toronto: Unavailable</h1>
     <p class="text-xl">
         Freakshock is a device that can be utilized to shock bad floofs or good ones! This is best utilized in VR and supports 3 modes of communication Serial / USB, Bluetooth and Wi-Fi (Not Available on all models).
