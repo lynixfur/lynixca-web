@@ -11,9 +11,9 @@
 			<img src="/LynixLogo.svg" alt="lynix" class="h-14 w-14" />
 		</a>
 		<a href="/projects" class="font-semibold text-lg hover:text-cyan-600 transition-colors">Projects</a>
-		<a href="/blog" class="font-semibold text-lg hover:text-cyan-600 transition-colors hidden">Blog</a>
-		<a href="/events" class="font-semibold text-lg hover:text-cyan-600 transition-colors flex items-center hidden">Events
-			<i class="fa fa-circle text-xs ml-2 text-red-600 animate-pulse hidden" aria-hidden="true"></i>
+		<a href="/blog" class="font-semibold text-lg hover:text-cyan-600 transition-colors">Blog</a>
+		<a href="/events" class="font-semibold text-lg hover:text-cyan-600 transition-colors flex items-center">Events
+			<i class="fa fa-circle text-xs ml-2 text-cyan-600 animate-pulse" aria-hidden="true"></i>
 		</a>
 		<a href="https://cloud.lynix.ca" class="font-semibold text-lg hover:text-cyan-600 transition-colors">Lynx Cloud</a>
 		<a href="https://aff.lynix.ca" class="flex items-center font-semibold text-lg hover:text-cyan-600 transition-colors hidden">Atlantic FurFest <span class="ml-2 bg-cyan-700 text-white text-xs me-2 px-2.5 py-0.5 rounded-full font-bold">New</span></a>

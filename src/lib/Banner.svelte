@@ -23,9 +23,9 @@
 	});
 </script>
 <div
-class="bg-orange-700 py-2 px-5 max-w-[800px] rounded-3xl font-semibold -ml-1 md:mt-5 mt-10 flex space-x-4 items-center"
+class="hidden bg-orange-700 py-2 px-5 max-w-[800px] rounded-3xl font-semibold -ml-1 md:mt-5 mt-10 flex space-x-4 items-center"
 >
-<img src="/Warning.png" class="w-14 h-14" />
+<img src="/Warning.png" class="w-14 h-14 hidden" />
 <p>
 	Lynx Emergency System: The Lynx Network and other services are now in read-only mode, please contact lynix for more information.<br/>YELLOW STATE
 </p>
