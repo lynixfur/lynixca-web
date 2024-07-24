@@ -23,11 +23,11 @@
 	});
 </script>
 <div
-class="hidden bg-orange-700 py-2 px-5 max-w-[800px] rounded-3xl font-semibold -ml-1 md:mt-5 mt-10 flex space-x-4 items-center"
+class="bg-red-700 py-2 px-5 max-w-[800px] rounded-3xl font-semibold -ml-1 md:mt-5 mt-10 flex space-x-4 items-center"
 >
-<img src="/Warning.png" class="w-14 h-14 hidden" />
+<img src="/Warning.png" class="w-14 h-14" />
 <p>
-	Lynx Emergency System: The Lynx Network and other services are now in read-only mode, please contact lynix for more information.<br/>YELLOW STATE
+	Lynx Emergency System: A friend of ours is possibly in danger, please contact lynix for more information. IN002<br/>RED STATE
 </p>
 </div>
 <div
