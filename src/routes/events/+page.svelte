@@ -86,7 +86,7 @@
         <div class="flex space-x-4">
             <div>
                 <h2 class="text-2xl text-cyan-500 font-bold mb-2">
-                    Furry Campfire Saturday
+                    Smoke in the Smoke (July)
                 </h2>
                 <p class="font-semibold text-cyan-200">
                     {`July 27 2024 - Toronto, ON`} <i class="fa-solid fa-star"></i>
