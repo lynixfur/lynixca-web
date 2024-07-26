@@ -86,34 +86,33 @@
         <div class="flex space-x-4">
             <div>
                 <h2 class="text-2xl text-cyan-500 font-bold mb-2">
-                    Furnal Equinox 2025
+                    Furry Campfire Saturday
                 </h2>
                 <p class="font-semibold text-cyan-200">
-                    {`March 2025 - Toronto, ON`} <i class="fa-solid fa-star"></i>
+                    {`July 27 2024 - Toronto, ON`} <i class="fa-solid fa-star"></i>
                 </p>
                 <p>
-                    Furnal Equinox is an annual furry convention held in
-                    Toronto, Ontario, Canada. It is one of the largest events of
-                    its kind in the country, bringing together enthusiasts of
-                    anthropomorphic art, characters, and culture.
+                    A community event where we hang out on the Toronto Island, have some good food, chat and more floofy fun!
                 </p>
                 <div class="flex space-x-2 mt-3">
                     <a
                         href="https://lynix.ca"
                         target="_blank"
                         class="h-10 w-10 bg-neutral-800 border border-neutral-700 p-2 flex items-center justify-center rounded-2xl text-neutral-300 hover:text-neutral-400 transition-colors"
-                        ><i class="fa-solid fa-link"></i></a>                    
+                        ><i class="fa-solid fa-link"></i></a
+                    >
                     <a
                         href="https://lynix.ca"
                         target="_blank"
-                        class="h-10 px-4 bg-cyan-500 font-bold text-cyan-950 text-lg font-bold py-1.5 rounded-2xl"
-                        >Planned</a>
+                        class="h-10 px-4 bg-green-500 font-bold text-green-950 text-lg font-bold py-1.5 rounded-2xl"
+                        >Happening Tomorrow!</a
+                    >
                 </div>
             </div>
             <img
-                src="https://cdn.ko-fi.com/cdn/useruploads/b656ea9b-5a13-4c46-84a7-20c73a614932.png"
+                src="/LynixLogo.svg"
                 alt="Lynix"
-                class="rounded-xl w-32 h-32 mb-1 border-2 bg-neutral-900 border-neutral-800 p-3"
+                class="rounded-xl w-32 h-32 pt-5 border-2 bg-neutral-900 border-neutral-800 p-3 object-fit"
             />
         </div>
         <div class="flex space-x-4">
@@ -146,6 +145,39 @@
                 src="https://en.wikifur.com/w/images/0/08/CanFURenceLogo.png"
                 alt="Lynix"
                 class="rounded-xl w-32 h-32 pt-5 border-2 bg-neutral-900 border-neutral-800 p-3 object-fit"
+            />
+        </div>
+        <div class="flex space-x-4">
+            <div>
+                <h2 class="text-2xl text-cyan-500 font-bold mb-2">
+                    Furnal Equinox 2025
+                </h2>
+                <p class="font-semibold text-cyan-200">
+                    {`March 2025 - Toronto, ON`} <i class="fa-solid fa-star"></i>
+                </p>
+                <p>
+                    Furnal Equinox is an annual furry convention held in
+                    Toronto, Ontario, Canada. It is one of the largest events of
+                    its kind in the country, bringing together enthusiasts of
+                    anthropomorphic art, characters, and culture.
+                </p>
+                <div class="flex space-x-2 mt-3">
+                    <a
+                        href="https://lynix.ca"
+                        target="_blank"
+                        class="h-10 w-10 bg-neutral-800 border border-neutral-700 p-2 flex items-center justify-center rounded-2xl text-neutral-300 hover:text-neutral-400 transition-colors"
+                        ><i class="fa-solid fa-link"></i></a>                    
+                    <a
+                        href="https://lynix.ca"
+                        target="_blank"
+                        class="h-10 px-4 bg-cyan-500 font-bold text-cyan-950 text-lg font-bold py-1.5 rounded-2xl"
+                        >Planned</a>
+                </div>
+            </div>
+            <img
+                src="https://cdn.ko-fi.com/cdn/useruploads/b656ea9b-5a13-4c46-84a7-20c73a614932.png"
+                alt="Lynix"
+                class="rounded-xl w-32 h-32 mb-1 border-2 bg-neutral-900 border-neutral-800 p-3"
             />
         </div>
     </div>

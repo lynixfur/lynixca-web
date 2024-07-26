@@ -18,6 +18,9 @@
 	"/events": [
 		"src/routes/+layout.js"
 	],
+	"/e/cf2024": [
+		"src/routes/+layout.js"
+	],
 	"/order/047221": [
 		"src/routes/+layout.js"
 	],
