@@ -3,7 +3,7 @@
 
 <div class="my-20">
     
-    <h1 class="text-6xl font-semibold text-neutral-100 pb-2 hidden">
+    <h1 class="text-6xl font-semibold text-neutral-100 pb-2">
         Up Next
     </h1>
     <div
@@ -27,16 +27,16 @@
     </p>
 </div>
 <br/>
-<h1 class="text-4xl font-bold mt-3 mb-1 hidden">Project Howl</h1>
-<p class="mb-3 hidden">Canada - July 7th 2024 to July 31st 2024</p>
+<h1 class="text-4xl font-bold mt-3 mb-1">Canfurence 2024</h1>
+<p class="mb-3">Ottawa, ON - August 2nd 2024 to August 4th 2024</p>
     <div
-        class="hidden min-h-[400px] w-full rounded-2xl bg-neutral-900"
-        style="background:url(/qc.avif);background-size: cover;background-position: center;"
+        class="min-h-[400px] w-full rounded-2xl bg-neutral-900"
+        style="background:url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/b5188434-5d5f-4fd0-8358-047f4acd1079/dg5jtd1-51a8efed-b960-4fc6-b4ec-5ff676176ae8.png/v1/fit/w_828,h_552,q_70,strp/canfurence_2023__07_by_lightningthefox7_dg5jtd1-414w-2x.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MjAwMCIsInBhdGgiOiJcL2ZcL2I1MTg4NDM0LTVkNWYtNGZkMC04MzU4LTA0N2Y0YWNkMTA3OVwvZGc1anRkMS01MWE4ZWZlZC1iOTYwLTRmYzYtYjRlYy01ZmY2NzYxNzZhZTgucG5nIiwid2lkdGgiOiI8PTMwMDAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.BJ0AaGvlJpxzLc4wRgugElDqf9ymxftybsD6Fy5MulQ);background-size: cover;background-position: center;"
     ></div>
     <div
-        class=" hidden bg-[#003978] py-5 px-5 mt-5 max-w-[800px] rounded-xl font-semibold hidden"
+        class="bg-[#003978] py-5 px-5 mt-5 max-w-[800px] rounded-xl font-semibold"
     >
-        <div class="hidden flex space-x-2 items-center text-lg">
+        <div class="flex space-x-2 items-center text-lg">
             <img src="/Megaphone.png" class="w-14" alt="Megaphone Icon" />
             <p>
                 CyberFox badge is coming with me for this convention! Boop now!
@@ -51,18 +51,24 @@
             <p
                 class="flex-1 mt-5 px-3 py-1.5 font-bold text-white text-center text-4xl flex flex-col"
             >
-                <i class="fa-solid fa-paw text-[60px] text-[#7dedd9]"></i> 369
+                <i class="fa-solid fa-paw text-[60px] text-[#7dedd9]"></i> 0
                 Boops
+                <span class="text-sm">Boops may be delayed due to internet connectivity until after the con!</span>
             </p>
         </div>
     </div>
-    <div class="hidden flex items-center space-x-4">
+    <div class="flex items-center space-x-4">
         <p
             class="mt-5 px-3 py-1.5 rounded-full bg-green-500 font-bold text-green-950 text-xl text-center w-[350px]"
         >
-            Happening Now
+            Confirmed
         </p>
-        <a href="https://lynix.ca/howl"
+        <p
+        class="mt-5 px-3 py-1.5 rounded-full bg-cyan-500 font-bold text-cyan-950 text-xl text-center w-[350px]"
+        >
+            0 Boops
+        </p>
+        <a href="https://canfurence.ca/"
             ><p
                 class="mt-5 px-3 py-1.5 rounded-full bg-neutral-800 font-bold text-white text-xl text-center w-[300px]"
             >
@@ -131,8 +137,8 @@
                     <a
                         href="https://lynix.ca"
                         target="_blank"
-                        class="h-10 px-4 bg-yellow-500 font-bold text-yellow-950 text-lg font-bold py-1.5 rounded-2xl"
-                        >Maybe</a
+                        class="h-10 px-4 bg-green-500 font-bold text-green-950 text-lg font-bold py-1.5 rounded-2xl"
+                        >Confirmed</a
                     >
                 </div>
             </div>
