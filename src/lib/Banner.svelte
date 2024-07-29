@@ -23,13 +23,14 @@
 	});
 </script>
 <div
-class="hidden bg-orange-700 py-2 px-5 max-w-[800px] rounded-3xl font-semibold -ml-1 md:mt-5 mt-10 flex space-x-4 items-center"
+class="bg-red-700 py-2 px-5 max-w-[800px] rounded-3xl font-semibold -ml-1 md:mt-5 mt-10 flex space-x-4 items-center"
 >
 <img src="/Warning.png" class="w-14 h-14" />
 <p>
-	Lynx Emergency System: A friend of ours is not doing well, please contact lynix for more information. IN002<br/>ORANGE STATE
+	A system outage is currently ongoing due to an issue with the panel system with canfurence and LCM on the following servers: CH1, TRX
 </p>
 </div>
+<br/>
 <div
 class="hidden bg-red-900 py-2 px-5 max-w-[800px] rounded-3xl font-semibold -ml-1 md:mt-5 mt-10 flex space-x-4 items-center"
 >

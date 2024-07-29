@@ -184,9 +184,8 @@
     <h1 class="mt-10 text-6xl font-semibold text-neutral-100 pb-2">
         Past Events
     </h1>
-
     <!-- Search Bar & Filters -->
-    <div class="mt-5 flex items-center space-x-4 w-1/2 hidden">
+    <div class="mt-5 flex items-center space-x-4 w-1/2">
         <!-- Search Bar -->
         <input
             type="text"
